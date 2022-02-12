@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition-timing-function: easy-in;
+  transition: all 0.5s;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.9475140397956058) 100%
+  );
+}
+
+.nav.nav__black {
+  background-color: #000000;
+}
+
+.nav .nav__contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 3.7rem;
+}
+
+.nav .nav__logo {
+  width: 165px;
+}
