@@ -47,7 +47,7 @@ const Banner = () => {
           {movie?.name || movie?.title || movie?.original_name}
         </h1>
         <p className="banner__description">
-          {truncate(`${movie?.overview}`, 280)}
+          {truncate(`${movie?.overview}`, 120)}
         </p>
         <div className="banner__buttons">
           <button className="banner__button reproduce">

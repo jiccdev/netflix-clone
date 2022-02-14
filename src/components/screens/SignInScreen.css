@@ -1,0 +1,77 @@
+.SignInScreen {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignInScreen .SignInScreen__contents {
+  background-color: rgba(0, 0, 0, 0.712);
+  text-align: start;
+  width: 430px;
+  padding: 2.5rem 0;
+  padding-bottom: 9rem;
+}
+.SignInScreen .SignInScreen__contents h2 {
+  margin-left: 3.5rem;
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+  font-size: 1.9rem;
+}
+
+.SignInScreen__contents .SignInScreen__contents__form {
+  margin: auto;
+  width: 75%;
+}
+
+.SignInScreen__contents__form__input {
+  margin-bottom: 2rem;
+}
+
+.SignInScreen__contents__form__input input {
+  width: 92%;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.SignInScreen__contents__form__input-submit input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #e50914;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 0.7rem;
+}
+
+.SignInScreen__contents__form__subs .SignInScreen__contents__form__subs__p {
+  font-size: 1rem;
+  color: #737373;
+}
+.SignInScreen__contents__form__subs .SignInScreen__contents__form__subs__p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.SignInScreen__contents__form__subs
+  .SignInScreen__contents__form__subs__p
+  a:hover {
+  text-decoration: underline;
+}
+.SignInScreen__contents__form__subs {
+  font-size: 0.8rem;
+  color: #737373;
+}
+.SignInScreen__contents__form__subs a {
+  color: #0071eb;
+}

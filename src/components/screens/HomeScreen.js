@@ -1,10 +1,10 @@
 import React from 'react';
 
-import request from '../Request';
+import request from '../../Request';
 
-import Nav from './Nav';
-import Banner from './Banner';
-import Row from './Row';
+import Nav from '../Nav';
+import Banner from '../Banner';
+import Row from '../Row';
 
 import './HomeScreen.css';
 

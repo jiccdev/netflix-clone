@@ -26,7 +26,7 @@
 }
 
 .banner .banner__contents {
-  margin: 0 3.8rem;
+  margin: 0 4.7rem;
   width: 50%;
   text-align: start;
   position: absolute;
@@ -39,7 +39,7 @@
 
 .banner__contents .banner__description {
   margin-top: -1.2rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   /* -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
@@ -53,12 +53,13 @@
 
 .banner__buttons .banner__button {
   cursor: pointer;
-  padding: 0.8rem 2rem;
-  font-size: 1.2rem;
+  padding: 1.1rem 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 4px;
   border: none;
   margin-right: 1rem;
+  white-space: nowrap;
 }
 
 .banner__button.reproduce,
@@ -98,4 +99,37 @@
   font-size: 1.5rem;
   padding-right: 0.6rem;
   color: #ffffff;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 35vh;
+  }
+  .banner .banner__contents {
+    margin: 0 1.6rem;
+  }
+  .banner__contents .banner__title {
+    font-size: 2rem;
+  }
+  .banner__contents .banner__description {
+    margin-top: -1.2rem;
+    font-size: 0.6rem;
+  }
+  .banner__buttons .banner__button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.6rem;
+    margin-right: 0.5rem;
+  }
+  .banner__button.reproduce .icon,
+  .banner__button.more-info .icon {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner {
+    height: 80vh;
+  }
 }

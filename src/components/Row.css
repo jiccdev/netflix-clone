@@ -1,6 +1,7 @@
 .row {
   color: #ffffff;
   margin-left: 20px;
+  margin: 0 4.7rem;
 }
 
 .row .row__title-section {
@@ -38,4 +39,14 @@
 .row__posterLarge:hover {
   transform: scale(1.09);
   opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .row {
+    margin: 0 1.5rem;
+  }
+  .row .row__title-section {
+    font-size: 0.75rem;
+    padding-top: 0.8rem;
+    font-weight: 700;
+  }
 }

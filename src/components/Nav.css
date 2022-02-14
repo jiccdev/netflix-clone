@@ -21,9 +21,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.3rem 3.7rem;
+  padding: 0.6rem 4.8rem;
 }
 
 .nav .nav__logo {
-  width: 165px;
+  width: 120px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .nav .nav__logo {
+    width: 50px;
+  }
+  .nav .nav__contents {
+    padding: 0.6rem 1.6rem;
+  }
 }

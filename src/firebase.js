@@ -1,3 +1,6 @@
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+
 const firebaseConfig = {
   apiKey: 'AIzaSyAPisH9MBymBInXtR8QRFxv77YpeVATc5k',
   authDomain: 'netflix-clone-862d5.firebaseapp.com',

@@ -1,0 +1,156 @@
+.loginScreen {
+  background-image: url('../../images/loginScreen/bg-netflix-login.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  postion: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginScreen:before {
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 0;
+}
+
+.loginScreen .loginScreen__content-top,
+.loginScreen .loginScreen__content-center,
+.loginScreen .loginScreen__content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.loginScreen .loginScreen__content-top,
+.loginScreen .loginScreen__content-bottom {
+  padding: 0 3.8rem;
+}
+
+.loginScreen .loginScreen__content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* Title */
+.loginScreen .loginScreen__content-center {
+  padding: 0rem 22rem;
+}
+
+.loginScreen .loginScreen__content-top {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.9475140397956058) 100%
+  );
+}
+
+.loginScreen .loginScreen__content-top .loginScreen__content-top__netflix-logo {
+  width: 165px;
+}
+.loginScreen__content-top__login {
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginScreen__content-center .loginScreen__content-center__title,
+.loginScreen__content-center .loginScreen__content-center__h2,
+.loginScreen__content-center .loginScreen__content-center__p {
+  color: #ffffff;
+}
+
+.loginScreen__content-center .loginScreen__content-center__title {
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+}
+/* Title */
+.loginScreen .loginScreen__content-center {
+  padding: 0rem 22rem;
+}
+
+.loginScreen__content-center .loginScreen__content-center__h2 {
+  font-size: 22px;
+  padding-top: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+.loginScreen__content-center .loginScreen__content-center__p {
+  font-size: 17px;
+  padding-top: 35px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.loginScreen__input .loginScreen__input__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginScreen__content-center .loginScreen__input {
+  margin-top: 20px;
+}
+
+.loginScreen__getstart__input-email {
+  height: 60px;
+  border: none;
+  outline: none;
+  width: 500px;
+  padding-left: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.loginScreen__getstart {
+  display: flex;
+  align-items: center;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  white-space: nowrap;
+  font-size: 2rem;
+  height: 62px;
+  padding: 0 1.7rem;
+}
+
+.loginScreen__getstart span {
+  padding-top: 0.4rem;
+  padding-left: 0.7rem;
+  font-size: 1.5rem;
+}
+
+.loginScreen .loginScreen__content-bottom {
+  padding: 3rem 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.8746849081429446) 100%
+  );
+}
